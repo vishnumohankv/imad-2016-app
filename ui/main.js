@@ -1,4 +1,9 @@
-console.log('Loaded!');
-//change the text of main text div
-var element = document.getElementById('app-text');
-element.InnerHTML = 'new';
+//counter code
+var button= document.getElementById('counter');
+var counter=0;
+button.onclick = fuction (){
+    //rendering span
+    counter=counter+1;
+    var span=document.getElementById('count');
+    span.innerHTML= counter.toString();
+}
