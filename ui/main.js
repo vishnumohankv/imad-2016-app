@@ -17,7 +17,7 @@ request.onreadystatechange = function (){
     //not done yet
 };
   //make a request
-  request.open('GET','http://http://vishnumohankv.imad.hasura-app.io/counter',true);
+  request.open('GET', 'http://vishnumohankv.imad.hasura-app.io/counter',true);
   request.send(null);
   
 };
