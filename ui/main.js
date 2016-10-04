@@ -46,9 +46,10 @@ request.onreadystatechange = function (){
     //not done yet
 };
   //make a request
-  request.open('GET', 'http://vishnumohankv.imad.hasura-app.io/submit-name/' + name,true);
   var nameInput = document.getElementById('name');
   var name = nameInput.value;
+  request.open('GET', 'http://vishnumohankv.imad.hasura-app.io/submit-name/' + name,true);
+  
   request.send(null);
   
 };
