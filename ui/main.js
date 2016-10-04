@@ -46,7 +46,7 @@ request.onreadystatechange = function (){
     //not done yet
 };
   //make a request
-  request.open('GET', 'http://vishnumohankv.imad.hasura-app.io/submit-name:',true);
+  request.open('GET', 'http://vishnumohankv.imad.hasura-app.io/submit-name:name',true);
   var nameInput = document.getElementById('name');
   var name = nameInput.value;
   request.send(null);
