@@ -51,5 +51,4 @@ request.onreadystatechange = function (){
   var name = nameInput.value;
   request.send(null);
   
-     
 };
